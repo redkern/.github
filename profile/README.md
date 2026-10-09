@@ -11,10 +11,11 @@ Each palette works on its own. Install only what you need.
 
 | Package | What it does | Status |
 | --- | --- | --- |
-| [`@redkern/node-red-gateway`](https://github.com/redkern/node-red-gateway) | Gateway between Node-RED instances over WebSocket: distributed rate limiting (GCRA), Redis Streams queue, idempotency, deadlines and retries | in development |
+| [`@redkern/node-red-gateway`](https://github.com/redkern/node-red-gateway) | Gateway between Node-RED instances over WebSocket: distributed rate limiting (GCRA), Redis Streams queue, idempotency, deadlines and retries | 1.0.1 |
+| [`@redkern/node-red-prometheus`](https://github.com/redkern/node-red-prometheus) | Contract-based Prometheus metrics with cardinality limits; one `/metrics` for all redkern palettes | in development |
+| [`@redkern/node-red-snowflake`](https://github.com/redkern/node-red-snowflake) | Snowflake queries with key-pair auth, a managed connection pool, timeouts, cancellation and row limits | in development |
 | [`@redkern/node-red-redis`](https://github.com/redkern/node-red-redis) | Redis commands, Pub/Sub and Streams with consumer groups, PEL recovery, DLQ, backpressure and drain for rollouts | in development |
 | [`@redkern/node-red-kafka`](https://github.com/redkern/node-red-kafka) | Kafka on librdkafka: consumer groups with manual ack, Protobuf and Avro via Schema Registry, SCRAM | in development |
-| [`@redkern/node-red-prometheus`](https://github.com/redkern/node-red-prometheus) | Contract-based Prometheus metrics with cardinality limits; one `/metrics` for all redkern palettes | in development |
 
 ### Plugins
 
@@ -27,7 +28,7 @@ Each palette works on its own. Install only what you need.
 
 | Package | What it does | Status |
 | --- | --- | --- |
-| [`@redkern/node-red-kit`](https://github.com/redkern/node-red-kit) | Zero-dependency runtime library shared by all redkern packages: config, secrets, auth, lifecycle, resilience, Redis client factory | in development |
+| [`@redkern/node-red-kit`](https://github.com/redkern/node-red-kit) | Zero-dependency runtime library shared by all redkern packages: config, secrets, auth, lifecycle, resilience, Redis client factory, metrics | 1.0.1 |
 
 ## Principles
 
@@ -44,7 +45,7 @@ Each palette works on its own. Install only what you need.
 
 ## Releases
 
-Only stable versions from 1.0.0 are published to npm, with provenance. Pre-releases are available as tarballs on GitHub Releases. Every package follows semver and keeps a changelog.
+Stable versions from 1.0.0 are published to npm from GitHub Actions with provenance. Pre-releases are available as tarballs on GitHub Releases. Every package follows semver and keeps a changelog.
 
 ## Contact
 
