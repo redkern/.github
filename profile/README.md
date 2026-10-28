@@ -16,6 +16,7 @@ Each palette works on its own. Install only what you need.
 | [`@redkern/node-red-snowflake`](https://github.com/redkern/node-red-snowflake) | Snowflake queries with key-pair auth, a managed connection pool, timeouts, cancellation and row limits | in development |
 | [`@redkern/node-red-redis`](https://github.com/redkern/node-red-redis) | Redis commands, Pub/Sub and Streams with consumer groups, PEL recovery, DLQ, backpressure and drain for rollouts | in development |
 | [`@redkern/node-red-kafka`](https://github.com/redkern/node-red-kafka) | Kafka on librdkafka: consumer groups with manual ack, Protobuf and Avro via Schema Registry, SCRAM | in development |
+| [`@redkern/node-red-scheduler`](https://github.com/redkern/node-red-scheduler) | Schedules built in the editor instead of cron: a timezone per schedule, a preview of the next runs, overlap protection and optional run-once across pods | planned |
 
 ### Plugins
 
