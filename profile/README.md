@@ -36,7 +36,6 @@ npm install @redkern/node-red-gateway
 | | Package | What it does | Status |
 | :---: | --- | --- | --- |
 | <img src="./assets/flow-splitter.svg" width="36" alt=""> | [`@redkern/node-red-flow-splitter`](https://github.com/redkern/node-red-flow-splitter) | Splits `flows.json` into per-tab files with stable names for Git review and audit trails | ![in development](https://img.shields.io/badge/in%20development-6e7681) |
-| <img src="./assets/migrate.svg" width="36" alt=""> | [`@redkern/node-red-migrate`](https://github.com/redkern/node-red-migrate) | Editor plugin that migrates flows from legacy `@yroshcha/*` packages tab by tab, keeping settings, secrets and consumer identity | ![in development](https://img.shields.io/badge/in%20development-6e7681) |
 
 ## Library
 
