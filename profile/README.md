@@ -29,7 +29,7 @@ npm install @redkern/node-red-gateway
 | <img src="./assets/snowflake.svg" width="36" alt=""> | [`@redkern/node-red-snowflake`](https://github.com/redkern/node-red-snowflake) | Snowflake queries with key-pair auth, a managed connection pool, timeouts, cancellation and row limits | ![in development](https://img.shields.io/badge/in%20development-6e7681) |
 | <img src="./assets/redis.svg" width="36" alt=""> | [`@redkern/node-red-redis`](https://github.com/redkern/node-red-redis) | Redis commands, Pub/Sub and Streams with consumer groups, PEL recovery, DLQ, backpressure and drain for rollouts | ![in development](https://img.shields.io/badge/in%20development-6e7681) |
 | <img src="./assets/kafka.svg" width="36" alt=""> | [`@redkern/node-red-kafka`](https://github.com/redkern/node-red-kafka) | Kafka on librdkafka: consumer groups with manual ack, Protobuf and Avro via Schema Registry, SCRAM | ![in development](https://img.shields.io/badge/in%20development-6e7681) |
-| <img src="./assets/scheduler.svg" width="36" alt=""> | [`@redkern/node-red-scheduler`](https://github.com/redkern/node-red-scheduler) | Schedules built in the editor instead of cron: a timezone per schedule, a preview of the next runs, overlap protection and optional run-once across pods | ![planned](https://img.shields.io/badge/planned-d0d7de) |
+| <img src="./assets/scheduler.svg" width="36" alt=""> | [`@redkern/node-red-scheduler`](https://github.com/redkern/node-red-scheduler) | Schedules built in the editor instead of cron: a timezone per schedule, a preview of the next runs, overlap protection and optional run-once across pods | ![in development](https://img.shields.io/badge/in%20development-6e7681)  |
 
 ## Plugins
 
