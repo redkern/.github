@@ -59,9 +59,9 @@ npm install @redkern/node-red-gateway
 | | Package | What it does | Status |
 | :---: | --- | --- | --- |
 | <img src="./assets/scheduler.svg" width="36" alt=""> | [`@redkern/node-red-scheduler`](https://github.com/redkern/node-red-scheduler) | Schedules built in the editor instead of cron: a timezone per schedule, a preview of the next runs, overlap protection and optional run-once across pods | ![in development](https://img.shields.io/badge/in%20development-6e7681) |
-| <img src="./assets/flow-control.svg" width="36" alt=""> | `@redkern/node-red-flow-control` | Flow control shared by all pods through Redis: idempotency with claim and commit, rate limits and per-key frequency caps, semaphores, retries with backoff and DLQ, message rate meters | ![planned](https://img.shields.io/badge/planned-d0d7de) |
-| <img src="./assets/jobs.svg" width="36" alt=""> | `@redkern/node-red-jobs` | Delayed jobs that survive restarts: schedule by job ID, cancel by tag, workers that claim jobs atomically across pods, ack and nack with retry and DLQ | ![planned](https://img.shields.io/badge/planned-d0d7de) |
-| <img src="./assets/journey.svg" width="36" alt=""> | `@redkern/node-red-journey` | Persistent state machines for multi-step journeys: definitions versioned in Git, per-entity state in Redis, timers, atomic transitions across pods | ![planned](https://img.shields.io/badge/planned-d0d7de) |
+| <img src="./assets/flow-control.svg" width="36" alt=""> | [`@redkern/node-red-flow-control`](https://github.com/redkern/node-red-flow-control) | Flow control shared by all pods through Redis: idempotency with claim and commit, rate limits and per-key frequency caps, semaphores, retries with backoff and DLQ, message rate meters | ![planned](https://img.shields.io/badge/planned-d0d7de) |
+| <img src="./assets/jobs.svg" width="36" alt=""> | [`@redkern/node-red-jobs`](https://github.com/redkern/node-red-jobs) | Delayed jobs that survive restarts: schedule by job ID, cancel by tag, workers that claim jobs atomically across pods, ack and nack with retry and DLQ | ![planned](https://img.shields.io/badge/planned-d0d7de) |
+| <img src="./assets/journey.svg" width="36" alt=""> | [`@redkern/node-red-journey`](https://github.com/redkern/node-red-journey) | Persistent state machines for multi-step journeys: definitions versioned in Git, per-entity state in Redis, timers, atomic transitions across pods | ![planned](https://img.shields.io/badge/planned-d0d7de) |
 
 #### Observe and ship
 
