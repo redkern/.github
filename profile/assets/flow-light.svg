@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="232" viewBox="0 0 960 232" role="img" aria-label="A message flows from Kafka through flow-control, journey and gateway across three pods, with shared state in Redis">
+<style>text{font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif}.l{font-size:13px;fill:#1f2328;font-style:italic}.s{font-size:11px;fill:#59636e}.c{font-size:11px;fill:#59636e;letter-spacing:.3px}</style>
+<g opacity="1">
+<path d="M280 98 V176" stroke="#a0a7b0" stroke-width="1.5" stroke-dasharray="2 4" fill="none"/>
+<path d="M490 98 V176" stroke="#a0a7b0" stroke-width="1.5" stroke-dasharray="2 4" fill="none"/>
+<path d="M720 98 V176" stroke="#a0a7b0" stroke-width="1.5" stroke-dasharray="2 4" fill="none"/>
+<rect x="260" y="176" width="600" height="36" rx="8" fill="#F4B3A1" fill-opacity="0.35" stroke="#C9806C" stroke-width="1.2" stroke-dasharray="5 4"/>
+<path d="M8 13a12 4 0 1 0 24 0a12 4 0 1 0 -24 0 M8 21a12 4 0 1 0 24 0a12 4 0 1 0 -24 0 M8 29a12 4 0 1 0 24 0a12 4 0 1 0 -24 0" transform="translate(272 179) scale(0.5)" fill="none" stroke="#C9806C" stroke-width="3" stroke-linecap="round"/>
+<text x="300" y="199" class="s" style="fill:#1f2328">redis · dedupe keys · journey state · one rate limit · shared by every pod</text>
+</g>
+<path d="M205 55 C255 55 205 55 255 55" stroke="#a0a7b0" stroke-width="2.5" fill="none"/>
+<path d="M415 48 C465 48 415 55 465 55" stroke="#a0a7b0" stroke-width="2.5" fill="none"/>
+<path d="M645 55 C695 55 645 55 695 55" stroke="#a0a7b0" stroke-width="2.5" fill="none"/>
+<path d="M415 62 C465 62 485 127 535 127" stroke="#a0a7b0" stroke-width="2.5" fill="none"/>
+<path d="M865 55 H893" stroke="#a0a7b0" stroke-width="2.5" fill="none"/>
+<rect x="893" y="42" width="62" height="26" rx="13" fill="none" stroke="#a0a7b0" stroke-width="1.5"/><text x="924" y="59" text-anchor="middle" class="c" style="fill:#1f2328">API</text>
+<rect x="28" y="32" width="180" height="30" rx="5" fill="#C3C7EC" fill-opacity="0.35" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="24" y="36" width="180" height="30" rx="5" fill="#C3C7EC" fill-opacity="0.6" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="20" y="40" width="180" height="30" rx="5" fill="#C3C7EC" stroke="#8c959f"/>
+<path d="M25 40 H50 V70 H25 a5 5 0 0 1 -5 -5 V45 a5 5 0 0 1 5 -5z" fill="#000" fill-opacity="0.06"/>
+<path d="M50 40 V70" stroke="#000" stroke-opacity="0.12"/>
+<path d="M4 13h7v18h-7z M13 13h7v18h-7z M22 13h7v18h-7z M31 13h5v18h-5z M20 41v14 M15 50l5 5l5 -5" transform="translate(25 40) scale(0.5)" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="60" y="60" class="l">trip-completed</text>
+<rect x="14" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<rect x="196" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<circle cx="28" cy="84" r="4.5" fill="#5a8"/><text x="38" y="88" class="s">consuming · 3 pods</text>
+<rect x="268" y="32" width="150" height="30" rx="5" fill="#B9DC8E" fill-opacity="0.35" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="264" y="36" width="150" height="30" rx="5" fill="#B9DC8E" fill-opacity="0.6" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="260" y="40" width="150" height="30" rx="5" fill="#B9DC8E" stroke="#8c959f"/>
+<path d="M265 40 H290 V70 H265 a5 5 0 0 1 -5 -5 V45 a5 5 0 0 1 5 -5z" fill="#000" fill-opacity="0.06"/>
+<path d="M290 40 V70" stroke="#000" stroke-opacity="0.12"/>
+<path d="M7 12h26l-10 12v9l-6 3v-12z M11 46h18 M11 52h18 M25 41l-10 16" transform="translate(265 40) scale(0.5)" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="300" y="60" class="l">dedupe</text>
+<rect x="254" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<rect x="406" y="43" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<rect x="406" y="57" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<circle cx="268" cy="84" r="4.5" fill="#5a8"/><text x="278" y="88" class="s">new 139/s · dup 0.4%</text>
+<rect x="478" y="32" width="170" height="30" rx="5" fill="#E2B6E6" fill-opacity="0.35" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="474" y="36" width="170" height="30" rx="5" fill="#E2B6E6" fill-opacity="0.6" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="470" y="40" width="170" height="30" rx="5" fill="#E2B6E6" stroke="#8c959f"/>
+<path d="M475 40 H500 V70 H475 a5 5 0 0 1 -5 -5 V45 a5 5 0 0 1 5 -5z" fill="#000" fill-opacity="0.06"/>
+<path d="M500 40 V70" stroke="#000" stroke-opacity="0.12"/>
+<path d="M8 31a3 3 0 1 0 6 0a3 3 0 1 0 -6 0 M26 15a3 3 0 1 0 6 0a3 3 0 1 0 -6 0 M14 31h4c6 0 6 -8 0 -8h-2c-6 0 -6 -8 0 -8h10 M7 48h1 M11 48h1 M15 48h14 M25 44l4 4l-4 4" transform="translate(475 40) scale(0.5)" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="510" y="60" class="l">onboarding</text>
+<rect x="464" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<rect x="636" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<circle cx="478" cy="84" r="4.5" fill="#5a8"/><text x="488" y="88" class="s">welcomed → reminded</text>
+<rect x="708" y="32" width="160" height="30" rx="5" fill="#A9DCD6" fill-opacity="0.35" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="704" y="36" width="160" height="30" rx="5" fill="#A9DCD6" fill-opacity="0.6" stroke="#8c959f" stroke-opacity="0.5"/>
+<rect x="700" y="40" width="160" height="30" rx="5" fill="#A9DCD6" stroke="#8c959f"/>
+<path d="M705 40 H730 V70 H705 a5 5 0 0 1 -5 -5 V45 a5 5 0 0 1 5 -5z" fill="#000" fill-opacity="0.06"/>
+<path d="M730 40 V70" stroke="#000" stroke-opacity="0.12"/>
+<path d="M9 36v-14a11 11 0 0 1 22 0v14 M5 36h30 M20 56v-14 M15 46l5 -5l5 5" transform="translate(705 40) scale(0.5)" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="740" y="60" class="l">push/send</text>
+<rect x="694" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<rect x="856" y="50" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<circle cx="708" cy="84" r="4.5" fill="#5a8"/><text x="718" y="88" class="s">one limit, all pods</text>
+<rect x="540" y="112" width="140" height="30" rx="5" fill="#87A980" stroke="#8c959f"/>
+<path d="M545 112 H570 V142 H545 a5 5 0 0 1 -5 -5 V117 a5 5 0 0 1 5 -5z" fill="#000" fill-opacity="0.06"/>
+<path d="M570 112 V142" stroke="#000" stroke-opacity="0.12"/>
+<path d="M10 20h20 M10 30h20 M10 40h14 " transform="translate(545 112) scale(0.5)" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="580" y="132" class="l">duplicates</text>
+<rect x="534" y="122" width="10" height="10" rx="3" fill="#d9d9d9" stroke="#8c959f"/>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-0.0s" repeatCount="indefinite" path="M205 55 C255 55 205 55 255 55"/></circle>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-1.0s" repeatCount="indefinite" path="M205 55 C255 55 205 55 255 55"/></circle>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-0.3s" repeatCount="indefinite" path="M415 48 C465 48 415 55 465 55"/></circle>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-1.3s" repeatCount="indefinite" path="M415 48 C465 48 415 55 465 55"/></circle>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-0.3s" repeatCount="indefinite" path="M645 55 C695 55 645 55 695 55"/></circle>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-1.3s" repeatCount="indefinite" path="M645 55 C695 55 645 55 695 55"/></circle>
+<circle r="4" fill="#24292f"><animateMotion dur="2.0s" begin="-0.3s" repeatCount="indefinite" path="M865 55 H893"/></circle>
+<circle r="4" fill="#cf222e"><animateMotion dur="7.2s" begin="0s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.33;1" calcMode="linear" path="M415 62 C465 62 485 127 535 127"/><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.33;0.36;1" dur="7.2s" begin="0s" repeatCount="indefinite"/></circle>
+</svg>
